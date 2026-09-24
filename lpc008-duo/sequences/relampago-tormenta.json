@@ -1,0 +1,23 @@
+{
+  "engine": "lightning",
+  "fps": 8,
+  "gap_min": 0.18,
+  "gap_max": 0.9,
+  "flash_min": 0.04,
+  "flash_max": 0.12,
+  "bursts_min": 1,
+  "bursts_max": 4,
+  "burst_gap_min": 0.03,
+  "burst_gap_max": 0.09,
+  "a": [
+    {"r": 255, "g": 255, "b": 255},
+    {"r": 200, "g": 225, "b": 255},
+    {"r": 240, "g": 250, "b": 255}
+  ],
+  "b": [
+    {"r": 255, "g": 255, "b": 255},
+    {"r": 255, "g": 230, "b": 190},
+    {"r": 255, "g": 210, "b": 160}
+  ],
+  "notes": "Tormenta: huecos 0.18–0.9 s, más ráfagas por rayo."
+}

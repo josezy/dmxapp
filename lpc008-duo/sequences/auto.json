@@ -1,0 +1,73 @@
+{
+  "engine": "show",
+  "mode": "auto",
+  "hold_min": 6,
+  "hold_max": 6,
+  "steps": [
+    {
+      "kind": "look",
+      "name": "deo-cian"
+    },
+    {
+      "kind": "play",
+      "name": "breathe-cancer"
+    },
+    {
+      "kind": "look",
+      "name": "ultima"
+    },
+    {
+      "kind": "play",
+      "name": "fade-ultima"
+    },
+    {
+      "kind": "look",
+      "name": "deo-hielo"
+    },
+    {
+      "kind": "play",
+      "name": "chase-dolor-medio"
+    },
+    {
+      "kind": "look",
+      "name": "suero"
+    },
+    {
+      "kind": "play",
+      "name": "fade-cancer"
+    },
+    {
+      "kind": "look",
+      "name": "cromo"
+    },
+    {
+      "kind": "play",
+      "name": "flicker-dolor"
+    },
+    {
+      "kind": "look",
+      "name": "pelicula"
+    },
+    {
+      "kind": "play",
+      "name": "breathe-deo"
+    },
+    {
+      "kind": "play",
+      "name": "strobe-deo-cian-medio"
+    },
+    {
+      "kind": "play",
+      "name": "ekg"
+    },
+    {
+      "kind": "look",
+      "name": "calida"
+    },
+    {
+      "kind": "play",
+      "name": "relampago-cian"
+    }
+  ],
+  "notes": "Tour Deo 6 s: looks de marca + motion Cáncer/Dolor/portada."
+}

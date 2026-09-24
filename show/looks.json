@@ -1,0 +1,228 @@
+{
+  "speeds": [
+    { "id": "lento", "label": "lento", "scale": 0.5 },
+    { "id": "medio-lento", "label": "medio lento", "scale": 0.75 },
+    { "id": "medio", "label": "medio", "scale": 1 },
+    { "id": "medio-rapido", "label": "medio rápido", "scale": 1.4 },
+    { "id": "rapido", "label": "rápido", "scale": 2 }
+  ],
+  "groups": [
+    {
+      "title": "Hits / drop",
+      "looks": [
+        {
+          "id": "golpe",
+          "label": "golpe",
+          "kind": "geometry",
+          "palette": "blanco",
+          "beam": { "sequence": "golpe-blanco" },
+          "lpc": { "mode": "palette_hold" }
+        },
+        {
+          "id": "drop",
+          "label": "drop",
+          "kind": "geometry",
+          "palette": "blanco-sangre",
+          "beam": { "sequence": "drop-blanco-rojo" },
+          "lpc": { "mode": "palette_hold" }
+        },
+        {
+          "id": "barrido",
+          "label": "barrido",
+          "kind": "geometry",
+          "palette": "sangre",
+          "beam": { "sequence": "barrido-sangre" },
+          "lpc": { "mode": "palette_hold" }
+        },
+        {
+          "id": "flash",
+          "label": "flash",
+          "kind": "geometry",
+          "palette": "sangre-oro",
+          "beam": { "sequence": "barrido-flash-sangre-oro" },
+          "lpc": { "mode": "palette_hold" }
+        }
+      ]
+    },
+    {
+      "title": "Verse / balada",
+      "looks": [
+        {
+          "id": "verse",
+          "label": "verse",
+          "kind": "geometry",
+          "palette": "azul",
+          "beam": { "sequence": "verse-azul" },
+          "lpc": { "mode": "palette_hold" }
+        },
+        {
+          "id": "ballad",
+          "label": "ballad fade",
+          "kind": "geometry",
+          "palette": "calido",
+          "beam": { "sequence": "ballad-fade-calido" },
+          "lpc": { "mode": "palette_hold" }
+        }
+      ]
+    },
+    {
+      "title": "Geometría",
+      "looks": [
+        {
+          "id": "abanico",
+          "label": "abanico",
+          "kind": "geometry",
+          "palette": "blanco",
+          "beam": { "sequence": "abanico-tilt" },
+          "lpc": { "mode": "palette_hold" }
+        },
+        {
+          "id": "abre-cierra",
+          "label": "abre-cierra",
+          "kind": "geometry",
+          "palette": "blanco",
+          "beam": { "sequence": "simetrico-abre-cierra" },
+          "lpc": { "mode": "palette_hold" }
+        },
+        {
+          "id": "unison",
+          "label": "unison",
+          "kind": "geometry",
+          "palette": "blanco",
+          "beam": { "sequence": "unison-search" },
+          "lpc": { "mode": "palette_hold" }
+        },
+        {
+          "id": "contra",
+          "label": "contra tilt",
+          "kind": "geometry",
+          "palette": "blanco",
+          "beam": { "sequence": "contra-tilt" },
+          "lpc": { "mode": "palette_hold" }
+        },
+        {
+          "id": "spin",
+          "label": "spin",
+          "kind": "geometry",
+          "palette": "blanco",
+          "beam": { "sequence": "spin-espejo" },
+          "lpc": { "mode": "palette_hold" }
+        },
+        {
+          "id": "circulo",
+          "label": "círculo",
+          "kind": "geometry",
+          "palette": "blanco",
+          "beam": { "sequence": "circulo-espejo" },
+          "lpc": { "mode": "palette_hold" }
+        },
+        {
+          "id": "paralelo",
+          "label": "paralelo",
+          "kind": "geometry",
+          "palette": "blanco",
+          "beam": { "sequence": "paralelo-search" },
+          "lpc": { "mode": "palette_hold" }
+        }
+      ]
+    },
+    {
+      "title": "Intermitencia",
+      "looks": [
+        {
+          "id": "tirones",
+          "label": "tirones",
+          "kind": "geometry",
+          "palette": "calido",
+          "beam": { "sequence": "tirones-random-calido" },
+          "lpc": { "mode": "palette_hold" }
+        },
+        {
+          "id": "abanico-random",
+          "label": "abanico random",
+          "kind": "geometry",
+          "palette": "frio",
+          "beam": { "sequence": "abanico-random-frio" },
+          "lpc": { "mode": "palette_hold" }
+        },
+        {
+          "id": "abre-cierra-random",
+          "label": "abre-cierra random",
+          "kind": "geometry",
+          "palette": "andino",
+          "beam": { "sequence": "abre-cierra-random-andino" },
+          "lpc": { "mode": "palette_hold" }
+        },
+        {
+          "id": "corona",
+          "label": "corona",
+          "kind": "geometry",
+          "palette": "corona",
+          "beam": { "sequence": "corona-reloj-dardo" },
+          "lpc": { "mode": "palette_hold" }
+        },
+        {
+          "id": "tiron-disco",
+          "label": "tirón disco",
+          "kind": "geometry",
+          "palette": "disco",
+          "beam": { "sequence": "abanico-tiron-disco" },
+          "lpc": { "mode": "palette_hold" }
+        }
+      ]
+    },
+    {
+      "title": "Luz",
+      "looks": [
+        {
+          "id": "breathe",
+          "label": "breathe",
+          "kind": "light",
+          "palette": "calida",
+          "lpc": { "engine": "dual_breathe", "sequence": "breathe-calida" },
+          "beam": { "mode": "color_follow" }
+        },
+        {
+          "id": "strobe",
+          "label": "strobe",
+          "kind": "light",
+          "palette": "rojo-cian",
+          "lpc": { "engine": "alt_strobe", "sequence": "strobe-primario-medio" },
+          "beam": { "mode": "color_follow" }
+        },
+        {
+          "id": "chase",
+          "label": "chase",
+          "kind": "light",
+          "palette": "rojo-cian",
+          "lpc": { "engine": "chase", "sequence": "chase-primario-medio" },
+          "beam": { "mode": "color_follow" }
+        },
+        {
+          "id": "fade",
+          "label": "fade",
+          "kind": "light",
+          "palette": "arcoiris",
+          "lpc": { "engine": "dual_fade", "sequence": "fade-medio" },
+          "beam": { "mode": "color_follow" }
+        },
+        {
+          "id": "relampago",
+          "label": "relámpago",
+          "kind": "light",
+          "palette": "blanco",
+          "lpc": { "engine": "lightning", "sequence": "relampago-blanco" },
+          "beam": { "mode": "color_follow" }
+        },
+        {
+          "id": "random",
+          "label": "random",
+          "kind": "light",
+          "palette": "fria",
+          "lpc": { "engine": "random", "holdMin": 0.35, "holdMax": 1.4, "fps": 12 },
+          "beam": { "mode": "color_follow" }
+        }
+      ]
+    }
+  ]
+}

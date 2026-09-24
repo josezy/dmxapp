@@ -1,0 +1,10 @@
+{
+  "_notes": "Internal strobe of RGB red. Medium ch7 speed.",
+  "dimmer": 255,
+  "r": 255,
+  "g": 0,
+  "b": 0,
+  "w": 0,
+  "feature": "strobe",
+  "speed": 120
+}

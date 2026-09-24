@@ -1,0 +1,29 @@
+{
+  "engine": "abre_cierra_random_andino",
+  "keep": true,
+  "rating": {
+    "notes": "Conservar. V que respira + on/off aleatorio 0.1–1.5 s, paleta andina con contraste anillo."
+  },
+  "fps": 18,
+  "open_hz": 0.22,
+  "tilt_hz": 0.14,
+  "spread_min": 40,
+  "spread_max": 100,
+  "tilt_center": 128,
+  "tilt_amp": 35,
+  "pan_center": 128,
+  "speed": 25,
+  "strobe": 0,
+  "dimmer_on": 255,
+  "dimmer_off": 0,
+  "hold_min": 0.1,
+  "hold_max": 1.5,
+  "independent": true,
+  "palette": [
+    {"name": "cochinilla-oro", "beam": [220, 8, 28, 0], "halo": [230, 170, 20]},
+    {"name": "qolle-cochinilla", "beam": [255, 190, 10, 40], "halo": [200, 0, 40]},
+    {"name": "verde-morado", "beam": [0, 170, 35, 0], "halo": [140, 0, 160]},
+    {"name": "kinsa-achiote", "beam": [0, 175, 165, 20], "halo": [255, 90, 0]}
+  ],
+  "notes": "Same random engine as abanico-random-frio on simetrico-abre-cierra geometry. Cochinilla, q'olle, rainforest green, kinsa q'uchu teal; halo contrast. No fixture strobe."
+}

@@ -1,0 +1,10 @@
+{
+  "engine": "strobe_colors",
+  "hz": 2,
+  "fps": 12,
+  "colors": [
+    {"r": 0, "g": 50, "b": 255, "w": 0},
+    {"r": 160, "g": 0, "b": 255, "w": 0}
+  ],
+  "notes": "2 Hz blue↔purple on 12 fps (3 frames each). Lower rate + fewer USB packets to avoid stalls."
+}

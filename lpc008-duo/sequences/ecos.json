@@ -1,0 +1,89 @@
+{
+  "engine": "show",
+  "mode": "random",
+  "hold_min": 4,
+  "hold_max": 8,
+  "steps": [
+    {
+      "kind": "look",
+      "name": "deo-cian"
+    },
+    {
+      "kind": "look",
+      "name": "deo-hielo"
+    },
+    {
+      "kind": "look",
+      "name": "ultima"
+    },
+    {
+      "kind": "look",
+      "name": "suero"
+    },
+    {
+      "kind": "look",
+      "name": "cromo"
+    },
+    {
+      "kind": "look",
+      "name": "pelicula"
+    },
+    {
+      "kind": "look",
+      "name": "calida"
+    },
+    {
+      "kind": "look",
+      "name": "fria"
+    },
+    {
+      "kind": "look",
+      "name": "naranja-azul"
+    },
+    {
+      "kind": "play",
+      "name": "strobe-deo-cian-medio"
+    },
+    {
+      "kind": "play",
+      "name": "strobe-dolor-medio"
+    },
+    {
+      "kind": "play",
+      "name": "chase-deo-cian-medio"
+    },
+    {
+      "kind": "play",
+      "name": "chase-dolor-medio"
+    },
+    {
+      "kind": "play",
+      "name": "fade-cancer"
+    },
+    {
+      "kind": "play",
+      "name": "fade-dolor"
+    },
+    {
+      "kind": "play",
+      "name": "breathe-cancer"
+    },
+    {
+      "kind": "play",
+      "name": "breathe-dolor"
+    },
+    {
+      "kind": "play",
+      "name": "ekg"
+    },
+    {
+      "kind": "play",
+      "name": "flicker-dolor"
+    },
+    {
+      "kind": "play",
+      "name": "relampago-cian"
+    }
+  ],
+  "notes": "Ecos: mismo banco que random medio (4–8 s)."
+}

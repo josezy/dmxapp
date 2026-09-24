@@ -1,0 +1,25 @@
+{
+  "model": "JM-P13",
+  "brand": "VEVOR",
+  "mode": "d001",
+  "address": 1,
+  "channels": 7,
+  "map": {
+    "dimmer": 1,
+    "r": 2,
+    "g": 3,
+    "b": 4,
+    "w": 5,
+    "feature": 6,
+    "speed": 7
+  },
+  "features": {
+    "dimmer": 0,
+    "strobe": 32,
+    "jump": 75,
+    "gradient": 125,
+    "pulse": 175,
+    "sound": 228
+  },
+  "notes": "Display d001 = 7-channel DMX at address 1. C001 is 3-channel. Feature 0-50 is linear/strobe (use 0 for solid color)."
+}

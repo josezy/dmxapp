@@ -1,0 +1,65 @@
+{
+  "engine": "show",
+  "mode": "random",
+  "hold_min": 2,
+  "hold_max": 4,
+  "steps": [
+    {
+      "kind": "look",
+      "name": "deo-cian"
+    },
+    {
+      "kind": "look",
+      "name": "deo-hielo"
+    },
+    {
+      "kind": "look",
+      "name": "ultima"
+    },
+    {
+      "kind": "look",
+      "name": "suero"
+    },
+    {
+      "kind": "look",
+      "name": "cromo"
+    },
+    {
+      "kind": "look",
+      "name": "pelicula"
+    },
+    {
+      "kind": "play",
+      "name": "strobe-deo-cian-rapido"
+    },
+    {
+      "kind": "play",
+      "name": "strobe-dolor-rapido"
+    },
+    {
+      "kind": "play",
+      "name": "chase-deo-cian-rapido"
+    },
+    {
+      "kind": "play",
+      "name": "chase-dolor-rapido"
+    },
+    {
+      "kind": "play",
+      "name": "fade-dolor"
+    },
+    {
+      "kind": "play",
+      "name": "flicker-dolor"
+    },
+    {
+      "kind": "play",
+      "name": "relampago-cian"
+    },
+    {
+      "kind": "play",
+      "name": "relampago-tormenta"
+    }
+  ],
+  "notes": "Random Deo 2–4 s. Rates rápidos + tormenta. Sin breathe."
+}

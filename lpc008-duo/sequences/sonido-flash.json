@@ -1,0 +1,15 @@
+{
+  "engine": "sound",
+  "style": "flash",
+  "threshold": 3.2,
+  "min_level": 0.025,
+  "cooldown": 0.12,
+  "flash": 0.12,
+  "pairs": [
+    [{"r": 255, "g": 0, "b": 0}, {"r": 0, "g": 255, "b": 255}],
+    [{"r": 0, "g": 255, "b": 0}, {"r": 255, "g": 0, "b": 255}],
+    [{"r": 0, "g": 80, "b": 255}, {"r": 255, "g": 220, "b": 0}],
+    [{"r": 255, "g": 255, "b": 255}, {"r": 255, "g": 180, "b": 60}]
+  ],
+  "notes": "Mic Mac: ambos destellan el mismo color y ciclan paleta."
+}

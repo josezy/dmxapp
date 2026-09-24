@@ -1,0 +1,9 @@
+{
+  "engine": "breathe",
+  "period": 5.0,
+  "dimmer_lo": 50,
+  "dimmer_hi": 180,
+  "fps": 40,
+  "color": {"r": 210, "g": 95, "b": 18},
+  "notes": "Tungsten breathe. ch6 stays DMX 25 via look_color feature dimmer."
+}

@@ -1,0 +1,19 @@
+{
+  "a": {
+    "dimmer": 255,
+    "r": 255,
+    "g": 245,
+    "b": 220,
+    "feature": 25,
+    "speed": 0
+  },
+  "b": {
+    "dimmer": 255,
+    "r": 180,
+    "g": 70,
+    "b": 40,
+    "feature": 25,
+    "speed": 0
+  },
+  "_notes": "A crema / B siena · interior portada"
+}

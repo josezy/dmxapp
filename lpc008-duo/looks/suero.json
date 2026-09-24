@@ -1,0 +1,19 @@
+{
+  "a": {
+    "dimmer": 255,
+    "r": 20,
+    "g": 55,
+    "b": 70,
+    "feature": 25,
+    "speed": 0
+  },
+  "b": {
+    "dimmer": 255,
+    "r": 255,
+    "g": 245,
+    "b": 220,
+    "feature": 25,
+    "speed": 0
+  },
+  "_notes": "A #143746 / B crema · wash Cáncer"
+}

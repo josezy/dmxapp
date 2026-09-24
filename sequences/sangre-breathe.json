@@ -1,0 +1,9 @@
+{
+  "engine": "breathe",
+  "period": 3.0,
+  "dimmer_lo": 60,
+  "dimmer_hi": 255,
+  "fps": 40,
+  "color": {"r": 255, "g": 10, "b": 0, "w": 8},
+  "notes": "Chorus blood breathe without strobe. Floor 60."
+}

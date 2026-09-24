@@ -1,0 +1,307 @@
+{
+  "palettes": [
+    {
+      "id": "blanco",
+      "label": "blanco",
+      "colors": [
+        { "r": 255, "g": 255, "b": 255 },
+        { "r": 255, "g": 255, "b": 255 }
+      ]
+    },
+    {
+      "id": "sangre",
+      "label": "sangre",
+      "colors": [
+        { "r": 255, "g": 0, "b": 8 },
+        { "r": 200, "g": 0, "b": 0 }
+      ]
+    },
+    {
+      "id": "blanco-sangre",
+      "label": "blanco / sangre",
+      "colors": [
+        { "r": 255, "g": 255, "b": 255 },
+        { "r": 255, "g": 10, "b": 0 }
+      ]
+    },
+    {
+      "id": "sangre-oro",
+      "label": "sangre / oro",
+      "colors": [
+        { "r": 255, "g": 0, "b": 8, "halo": [200, 0, 0] },
+        { "r": 255, "g": 170, "b": 25, "w": 70, "halo": [220, 150, 20] }
+      ]
+    },
+    {
+      "id": "calida",
+      "label": "cálida",
+      "colors": [
+        { "r": 255, "g": 150, "b": 40 },
+        { "r": 190, "g": 28, "b": 8 }
+      ]
+    },
+    {
+      "id": "fria",
+      "label": "fría",
+      "colors": [
+        { "r": 36, "g": 70, "b": 155 },
+        { "r": 150, "g": 210, "b": 255 }
+      ]
+    },
+    {
+      "id": "azul",
+      "label": "azul",
+      "colors": [
+        { "r": 0, "g": 30, "b": 255 },
+        { "r": 140, "g": 0, "b": 200 }
+      ]
+    },
+    {
+      "id": "deo",
+      "label": "deo",
+      "colors": [
+        { "r": 222, "g": 0, "b": 0 },
+        { "r": 20, "g": 55, "b": 70 }
+      ]
+    },
+    {
+      "id": "rojo-cian",
+      "label": "rojo / cian",
+      "colors": [
+        { "r": 255, "g": 0, "b": 0 },
+        { "r": 0, "g": 255, "b": 255 }
+      ]
+    },
+    {
+      "id": "naranja-azul",
+      "label": "naranja / azul",
+      "colors": [
+        { "r": 255, "g": 110, "b": 0 },
+        { "r": 0, "g": 70, "b": 220 }
+      ]
+    },
+    {
+      "id": "verde-magenta",
+      "label": "verde / magenta",
+      "colors": [
+        { "r": 0, "g": 255, "b": 0 },
+        { "r": 255, "g": 0, "b": 255 }
+      ]
+    },
+    {
+      "id": "magenta-verde",
+      "label": "magenta / verde",
+      "colors": [
+        { "r": 255, "g": 0, "b": 160 },
+        { "r": 20, "g": 180, "b": 40 }
+      ]
+    },
+    {
+      "id": "violeta-lima",
+      "label": "violeta / lima",
+      "colors": [
+        { "r": 150, "g": 0, "b": 255 },
+        { "r": 140, "g": 255, "b": 0 }
+      ]
+    },
+    {
+      "id": "azul-amarillo",
+      "label": "azul / amarillo",
+      "colors": [
+        { "r": 0, "g": 0, "b": 255 },
+        { "r": 255, "g": 255, "b": 0 }
+      ]
+    },
+    {
+      "id": "selvatica",
+      "label": "selvática",
+      "colors": [
+        { "r": 12, "g": 120, "b": 36 },
+        { "r": 170, "g": 200, "b": 28 }
+      ]
+    },
+    {
+      "id": "suero",
+      "label": "suero",
+      "colors": [
+        { "r": 20, "g": 55, "b": 70 },
+        { "r": 255, "g": 245, "b": 220 }
+      ]
+    },
+    {
+      "id": "pelicula",
+      "label": "película",
+      "colors": [
+        { "r": 255, "g": 245, "b": 220 },
+        { "r": 180, "g": 70, "b": 40 }
+      ]
+    },
+    {
+      "id": "cromo",
+      "label": "cromo",
+      "colors": [
+        { "r": 235, "g": 240, "b": 250 },
+        { "r": 90, "g": 110, "b": 125 }
+      ]
+    },
+    {
+      "id": "ultima",
+      "label": "última",
+      "colors": [
+        { "r": 222, "g": 0, "b": 0 },
+        { "r": 90, "g": 160, "b": 210 }
+      ]
+    },
+    {
+      "id": "deo-hielo",
+      "label": "deo / hielo",
+      "colors": [
+        { "r": 222, "g": 0, "b": 0 },
+        { "r": 235, "g": 240, "b": 247 }
+      ]
+    },
+    {
+      "id": "dolor",
+      "label": "dolor",
+      "colors": [
+        { "r": 222, "g": 0, "b": 0 },
+        { "r": 90, "g": 110, "b": 125 }
+      ]
+    },
+    {
+      "id": "dardo-rojo",
+      "label": "dardo rojo",
+      "colors": [
+        { "r": 0, "g": 0, "b": 0, "w": 255, "halo": [255, 0, 0] }
+      ]
+    },
+    {
+      "id": "dardo-oro",
+      "label": "dardo oro",
+      "colors": [
+        { "r": 0, "g": 0, "b": 0, "w": 255, "halo": [230, 170, 20] }
+      ]
+    },
+    {
+      "id": "verse",
+      "label": "verse",
+      "colors": [
+        { "r": 0, "g": 30, "b": 255, "halo": [140, 0, 200] }
+      ]
+    },
+    {
+      "id": "sangre-dardo",
+      "label": "sangre dardo",
+      "colors": [
+        { "r": 255, "g": 0, "b": 12, "halo": [90, 0, 8] }
+      ]
+    },
+    {
+      "id": "andino",
+      "label": "andino",
+      "colors": [
+        { "name": "cochinilla-oro", "r": 220, "g": 8, "b": 28, "halo": [230, 170, 20] },
+        { "name": "qolle-cochinilla", "r": 255, "g": 190, "b": 10, "w": 40, "halo": [200, 0, 40] },
+        { "name": "verde-morado", "r": 0, "g": 170, "b": 35, "halo": [140, 0, 160] },
+        { "name": "kinsa-achiote", "r": 0, "g": 175, "b": 165, "w": 20, "halo": [255, 90, 0] }
+      ]
+    },
+    {
+      "id": "calido",
+      "label": "cálido",
+      "colors": [
+        { "name": "tungsteno", "r": 255, "g": 70, "b": 8, "w": 45, "halo": [180, 50, 0] },
+        { "name": "naranja", "r": 255, "g": 110, "b": 0, "w": 20, "halo": [255, 90, 0] },
+        { "name": "sangre", "r": 255, "g": 0, "b": 8, "halo": [200, 0, 0] },
+        { "name": "oro", "r": 255, "g": 170, "b": 25, "w": 70, "halo": [220, 150, 20] }
+      ]
+    },
+    {
+      "id": "frio",
+      "label": "frío",
+      "colors": [
+        { "name": "w-azul", "r": 0, "g": 0, "b": 0, "w": 255, "halo": [0, 40, 255] },
+        { "name": "azul-hielo", "r": 0, "g": 30, "b": 255, "halo": [220, 230, 255] },
+        { "name": "cian-violeta", "r": 0, "g": 220, "b": 230, "w": 40, "halo": [90, 20, 220] },
+        { "name": "violeta-cian", "r": 70, "g": 0, "b": 220, "halo": [0, 230, 240] }
+      ]
+    },
+    {
+      "id": "corona",
+      "label": "corona",
+      "colors": [
+        { "name": "cochinilla", "r": 220, "g": 8, "b": 28 },
+        { "name": "azul", "r": 0, "g": 30, "b": 255 },
+        { "name": "qolle", "r": 255, "g": 190, "b": 10, "w": 40 },
+        { "name": "verde", "r": 0, "g": 170, "b": 35 }
+      ]
+    },
+    {
+      "id": "disco",
+      "label": "disco",
+      "colors": [
+        { "name": "magenta-cyan", "r": 255, "g": 0, "b": 160, "halo": [0, 230, 240] },
+        { "name": "cyan-magenta", "r": 0, "g": 220, "b": 230, "w": 20, "halo": [255, 0, 140] },
+        { "name": "amarillo-violeta", "r": 255, "g": 210, "b": 0, "w": 40, "halo": [140, 0, 255] },
+        { "name": "lima-rosa", "r": 50, "g": 255, "b": 0, "halo": [255, 0, 90] },
+        { "name": "rojo-oro", "r": 255, "g": 0, "b": 50, "halo": [255, 220, 0] }
+      ]
+    },
+    {
+      "id": "arcoiris",
+      "label": "arcoíris",
+      "colors": [
+        { "r": 255, "g": 0, "b": 0 },
+        { "r": 255, "g": 140, "b": 0 },
+        { "r": 255, "g": 255, "b": 0 },
+        { "r": 0, "g": 255, "b": 0 },
+        { "r": 0, "g": 255, "b": 255 },
+        { "r": 0, "g": 0, "b": 255 },
+        { "r": 160, "g": 0, "b": 255 },
+        { "r": 255, "g": 0, "b": 120 }
+      ]
+    },
+    {
+      "id": "temperaturas",
+      "label": "temperaturas",
+      "colors": [
+        { "r": 255, "g": 150, "b": 40 },
+        { "r": 190, "g": 28, "b": 8 },
+        { "r": 12, "g": 120, "b": 36 },
+        { "r": 170, "g": 200, "b": 28 },
+        { "r": 36, "g": 70, "b": 155 },
+        { "r": 150, "g": 210, "b": 255 }
+      ]
+    },
+    {
+      "id": "cancer",
+      "label": "cáncer",
+      "colors": [
+        { "r": 20, "g": 55, "b": 70 },
+        { "r": 255, "g": 245, "b": 220 },
+        { "r": 255, "g": 150, "b": 40 },
+        { "r": 222, "g": 0, "b": 0 }
+      ]
+    },
+    {
+      "id": "fade-dolor",
+      "label": "fade dolor",
+      "colors": [
+        { "r": 90, "g": 110, "b": 125 },
+        { "r": 235, "g": 240, "b": 247 },
+        { "r": 222, "g": 0, "b": 0 }
+      ]
+    },
+    {
+      "id": "fade-ultima",
+      "label": "fade última",
+      "colors": [
+        { "r": 255, "g": 245, "b": 220 },
+        { "r": 180, "g": 70, "b": 40 },
+        { "r": 222, "g": 0, "b": 0 },
+        { "r": 50, "g": 70, "b": 160 },
+        { "r": 90, "g": 160, "b": 210 }
+      ]
+    }
+  ]
+}

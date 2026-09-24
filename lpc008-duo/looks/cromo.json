@@ -1,0 +1,19 @@
+{
+  "a": {
+    "dimmer": 255,
+    "r": 235,
+    "g": 240,
+    "b": 250,
+    "feature": 25,
+    "speed": 0
+  },
+  "b": {
+    "dimmer": 255,
+    "r": 90,
+    "g": 110,
+    "b": 125,
+    "feature": 25,
+    "speed": 0
+  },
+  "_notes": "A blanco frío / B acero · wash Dolor"
+}

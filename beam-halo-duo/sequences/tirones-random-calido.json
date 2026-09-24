@@ -1,0 +1,29 @@
+{
+  "engine": "tirones_random_calido",
+  "keep": true,
+  "rating": {
+    "notes": "Conservar. On/off aleatorio 0.1–1.5 s por cabeza, cálidos a tope, halo contraste, sin strobe. Tirones pan/tilt."
+  },
+  "fps": 18,
+  "pan_period": 2.4,
+  "tilt_hz": 0.55,
+  "pan_lo": 36,
+  "pan_hi": 220,
+  "tilt_lo": 88,
+  "tilt_hi": 168,
+  "speed": 0,
+  "strobe": 0,
+  "dimmer_on": 255,
+  "dimmer_off": 0,
+  "hold_min": 0.1,
+  "hold_max": 1.5,
+  "independent": true,
+  "palette": [
+    {"name": "sangre", "beam": [255, 0, 8, 0], "halo": [200, 0, 0]},
+    {"name": "naranja", "beam": [255, 110, 0, 20], "halo": [255, 90, 0]},
+    {"name": "oro", "beam": [255, 170, 25, 70], "halo": [220, 150, 20]},
+    {"name": "tungsteno", "beam": [255, 70, 8, 45], "halo": [180, 50, 0]}
+  ],
+  "halo_offset": 2,
+  "notes": "Each head flips independently. New warm color on each ON. Halo is palette[(i+2)%4]."
+}

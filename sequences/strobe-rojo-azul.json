@@ -1,0 +1,10 @@
+{
+  "engine": "strobe_colors",
+  "hz": 2,
+  "fps": 12,
+  "colors": [
+    {"r": 255, "g": 10, "b": 0, "w": 8},
+    {"r": 36, "g": 70, "b": 155, "w": 28}
+  ],
+  "notes": "2 Hz sangre↔acero on 12 fps. USB ceiling for two-color strobe."
+}

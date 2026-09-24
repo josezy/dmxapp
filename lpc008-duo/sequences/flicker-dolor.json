@@ -1,0 +1,23 @@
+{
+  "engine": "lightning",
+  "fps": 8,
+  "gap_min": 0.08,
+  "gap_max": 0.35,
+  "flash_min": 0.04,
+  "flash_max": 0.1,
+  "bursts_min": 1,
+  "bursts_max": 2,
+  "burst_gap_min": 0.03,
+  "burst_gap_max": 0.08,
+  "a": {
+    "r": 235,
+    "g": 240,
+    "b": 247
+  },
+  "b": {
+    "r": 235,
+    "g": 240,
+    "b": 250
+  },
+  "notes": "Fluorescente muriendo. Blanco frío, huecos 0.08–0.35 s."
+}

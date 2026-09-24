@@ -1,0 +1,32 @@
+{
+  "engine": "abanico_tilt",
+  "keep": true,
+  "rating": {
+    "overall": 5,
+    "notes": "Mejor look hasta ahora. Pans fijos en V, tilt unison."
+  },
+  "fps": 18,
+  "tilt_hz": 0.28,
+  "tilt_amp": 70,
+  "tilt_center": 128,
+  "pan_a": 72,
+  "pan_b": 184,
+  "speed": 30,
+  "dimmer": 255,
+  "strobe": 0,
+  "a": {
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "w": 255,
+    "halo": [255, 255, 255]
+  },
+  "b": {
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "w": 255,
+    "halo": [255, 255, 255]
+  },
+  "notes": "Concert fan: pans parked mirrored, both heads nod the same tilt."
+}

@@ -1,0 +1,26 @@
+{
+  "song": "fx-demo",
+  "notes": "No audio. Internal strobe, internal jump, then software red/blue eighths at 93.75 BPM.",
+  "cues": [
+    {"t": 0.0, "name": "solido-rojo", "fade": 0, "dimmer": 200, "r": 255, "g": 0, "b": 0, "w": 0, "feature": 0, "speed": 0},
+    {"t": 1.5, "name": "strobe-interno", "fade": 0, "dimmer": 220, "r": 255, "g": 0, "b": 0, "w": 0, "feature": 42, "speed": 200},
+    {"t": 6.5, "name": "solido-rojo", "fade": 0, "dimmer": 200, "r": 255, "g": 0, "b": 0, "w": 0, "feature": 0, "speed": 0},
+    {"t": 7.5, "name": "jump-interno", "fade": 0, "dimmer": 255, "r": 255, "g": 255, "b": 255, "w": 0, "feature": "jump", "speed": 140},
+    {"t": 12.5, "name": "negro", "fade": 0, "dimmer": 0, "r": 0, "g": 0, "b": 0, "w": 0, "feature": 0, "speed": 0},
+    {"t": 13.0, "name": "blink-rojo", "fade": 0, "dimmer": 230, "r": 255, "g": 0, "b": 0, "w": 0, "feature": 0, "speed": 0},
+    {"t": 13.32, "name": "blink-azul", "fade": 0, "dimmer": 230, "r": 0, "g": 40, "b": 255, "w": 0, "feature": 0, "speed": 0},
+    {"t": 13.64, "name": "blink-rojo", "fade": 0, "dimmer": 230, "r": 255, "g": 0, "b": 0, "w": 0, "feature": 0, "speed": 0},
+    {"t": 13.96, "name": "blink-azul", "fade": 0, "dimmer": 230, "r": 0, "g": 40, "b": 255, "w": 0, "feature": 0, "speed": 0},
+    {"t": 14.28, "name": "blink-rojo", "fade": 0, "dimmer": 230, "r": 255, "g": 0, "b": 0, "w": 0, "feature": 0, "speed": 0},
+    {"t": 14.6, "name": "blink-azul", "fade": 0, "dimmer": 230, "r": 0, "g": 40, "b": 255, "w": 0, "feature": 0, "speed": 0},
+    {"t": 14.92, "name": "blink-rojo", "fade": 0, "dimmer": 230, "r": 255, "g": 0, "b": 0, "w": 0, "feature": 0, "speed": 0},
+    {"t": 15.24, "name": "blink-azul", "fade": 0, "dimmer": 230, "r": 0, "g": 40, "b": 255, "w": 0, "feature": 0, "speed": 0},
+    {"t": 15.56, "name": "blink-rojo", "fade": 0, "dimmer": 230, "r": 255, "g": 0, "b": 0, "w": 0, "feature": 0, "speed": 0},
+    {"t": 15.88, "name": "blink-azul", "fade": 0, "dimmer": 230, "r": 0, "g": 40, "b": 255, "w": 0, "feature": 0, "speed": 0},
+    {"t": 16.2, "name": "blink-rojo", "fade": 0, "dimmer": 230, "r": 255, "g": 0, "b": 0, "w": 0, "feature": 0, "speed": 0},
+    {"t": 16.52, "name": "blink-azul", "fade": 0, "dimmer": 230, "r": 0, "g": 40, "b": 255, "w": 0, "feature": 0, "speed": 0},
+    {"t": 16.84, "name": "blink-rojo", "fade": 0, "dimmer": 230, "r": 255, "g": 0, "b": 0, "w": 0, "feature": 0, "speed": 0},
+    {"t": 17.16, "name": "blink-azul", "fade": 0, "dimmer": 230, "r": 0, "g": 40, "b": 255, "w": 0, "feature": 0, "speed": 0},
+    {"t": 17.5, "name": "blackout", "fade": 0.2, "dimmer": 0, "r": 0, "g": 0, "b": 0, "w": 0, "feature": 0, "speed": 0}
+  ]
+}

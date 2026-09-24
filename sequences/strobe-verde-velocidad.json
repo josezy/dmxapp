@@ -1,0 +1,14 @@
+{
+  "duration": 8.0,
+  "notes": "Internal green strobe; ch7 sweeps slow→fast→slow. Run with --loop --no-audio.",
+  "cues": [
+    {"t": 0.0, "name": "lento", "dimmer": 255, "r": 0, "g": 255, "b": 0, "w": 0, "feature": "strobe", "speed": 40, "fade": 0},
+    {"t": 1.0, "name": "mas", "dimmer": 255, "r": 0, "g": 255, "b": 0, "w": 0, "feature": "strobe", "speed": 80, "fade": 0.8},
+    {"t": 2.0, "name": "medio", "dimmer": 255, "r": 0, "g": 255, "b": 0, "w": 0, "feature": "strobe", "speed": 130, "fade": 0.8},
+    {"t": 3.0, "name": "rapido", "dimmer": 255, "r": 0, "g": 255, "b": 0, "w": 0, "feature": "strobe", "speed": 180, "fade": 0.8},
+    {"t": 4.0, "name": "tope", "dimmer": 255, "r": 0, "g": 255, "b": 0, "w": 0, "feature": "strobe", "speed": 230, "fade": 0.8},
+    {"t": 5.0, "name": "baja", "dimmer": 255, "r": 0, "g": 255, "b": 0, "w": 0, "feature": "strobe", "speed": 180, "fade": 0.8},
+    {"t": 6.0, "name": "medio", "dimmer": 255, "r": 0, "g": 255, "b": 0, "w": 0, "feature": "strobe", "speed": 130, "fade": 0.8},
+    {"t": 7.0, "name": "lento", "dimmer": 255, "r": 0, "g": 255, "b": 0, "w": 0, "feature": "strobe", "speed": 60, "fade": 0.8}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "a": {
+    "dimmer": 255,
+    "r": 36,
+    "g": 70,
+    "b": 155,
+    "feature": 25,
+    "speed": 0
+  },
+  "b": {
+    "dimmer": 255,
+    "r": 150,
+    "g": 210,
+    "b": 255,
+    "feature": 25,
+    "speed": 0
+  },
+  "_notes": "A acero / B hielo"
+}

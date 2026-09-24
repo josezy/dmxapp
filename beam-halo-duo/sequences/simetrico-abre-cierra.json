@@ -1,0 +1,33 @@
+{
+  "engine": "simetrico_abre_cierra",
+  "keep": true,
+  "rating": {
+    "notes": "Conservar. V en espejo que abre y cierra, tilt unison, blanco."
+  },
+  "fps": 18,
+  "open_hz": 0.22,
+  "tilt_hz": 0.14,
+  "spread_min": 40,
+  "spread_max": 100,
+  "tilt_center": 128,
+  "tilt_amp": 35,
+  "pan_center": 128,
+  "speed": 25,
+  "dimmer": 255,
+  "strobe": 0,
+  "a": {
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "w": 255,
+    "halo": [255, 255, 255]
+  },
+  "b": {
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "w": 255,
+    "halo": [255, 255, 255]
+  },
+  "notes": "A pan = 128-spread, B pan = 128+spread. Same tilt sine."
+}

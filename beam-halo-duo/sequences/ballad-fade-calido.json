@@ -1,0 +1,26 @@
+{
+  "engine": "sweep_mirror_fade",
+  "keep": true,
+  "rating": {
+    "notes": "Mejor que ámbar fijo. Fade cálido sobre el barrido lento de balada."
+  },
+  "fps": 16,
+  "pan_hz": 0.14,
+  "tilt_hz": 0.09,
+  "pan_amp": 55,
+  "tilt_amp": 22,
+  "pan_center": 128,
+  "tilt_center": 128,
+  "speed": 50,
+  "dimmer": 180,
+  "strobe": 0,
+  "mirror": true,
+  "color_period": 4.0,
+  "palette": [
+    {"name": "tungsteno", "beam": [255, 70, 8, 45], "halo": [180, 50, 0]},
+    {"name": "naranja", "beam": [255, 110, 0, 20], "halo": [255, 90, 0]},
+    {"name": "sangre", "beam": [255, 0, 8, 0], "halo": [200, 0, 0]},
+    {"name": "oro", "beam": [255, 170, 25, 70], "halo": [220, 150, 20]}
+  ],
+  "notes": "A and B share the same fade. Beam RGBW + halo RGB lerp, 4s per color."
+}

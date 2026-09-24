@@ -1,0 +1,10 @@
+{
+  "_notes": "ch6 pulse. Soft, does not reach 0.",
+  "dimmer": 255,
+  "r": 255,
+  "g": 80,
+  "b": 0,
+  "strobe": 0,
+  "feature": 225,
+  "speed": 80
+}

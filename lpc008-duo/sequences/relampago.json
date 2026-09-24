@@ -1,0 +1,23 @@
+{
+  "engine": "lightning",
+  "fps": 8,
+  "gap_min": 0.5,
+  "gap_max": 2.4,
+  "flash_min": 0.05,
+  "flash_max": 0.14,
+  "bursts_min": 1,
+  "bursts_max": 3,
+  "burst_gap_min": 0.04,
+  "burst_gap_max": 0.11,
+  "a": [
+    {"r": 255, "g": 255, "b": 255},
+    {"r": 210, "g": 230, "b": 255},
+    {"r": 230, "g": 245, "b": 255}
+  ],
+  "b": [
+    {"r": 255, "g": 255, "b": 255},
+    {"r": 255, "g": 235, "b": 200},
+    {"r": 255, "g": 220, "b": 175}
+  ],
+  "notes": "Relámpago: A frío / B cálido. Cada PAR dispara en un hueco al azar 0.5–2.4 s."
+}

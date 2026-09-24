@@ -1,0 +1,18 @@
+{
+  "engine": "dual_breathe",
+  "period": 6.0,
+  "dimmer_lo": 45,
+  "dimmer_hi": 255,
+  "fps": 12,
+  "a": {
+    "r": 222,
+    "g": 0,
+    "b": 0
+  },
+  "b": {
+    "r": 90,
+    "g": 160,
+    "b": 210
+  },
+  "notes": "#de0000 vs cielo. Puente La última."
+}

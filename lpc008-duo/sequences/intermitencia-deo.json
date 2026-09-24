@@ -1,0 +1,16 @@
+{
+  "engine": "alt_strobe",
+  "hz": 0.25,
+  "fps": 8,
+  "a": {
+    "r": 222,
+    "g": 0,
+    "b": 0
+  },
+  "b": {
+    "r": 20,
+    "g": 55,
+    "b": 70
+  },
+  "notes": "Intermitencia lenta 0.25 Hz. #de0000 / #143746. Hueco negro."
+}

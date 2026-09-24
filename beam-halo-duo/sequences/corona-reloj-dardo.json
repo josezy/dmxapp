@@ -1,0 +1,26 @@
+{
+  "engine": "corona_reloj_dardo",
+  "keep": true,
+  "rating": {
+    "notes": "Conservar. Abanico + manecilla oro CCW. Dardo cochinilla/azul/q'olle/verde; blanco sobraba."
+  },
+  "fps": 18,
+  "tilt_hz": 0.28,
+  "tilt_amp": 70,
+  "tilt_center": 128,
+  "pan_a": 72,
+  "pan_b": 184,
+  "speed": 30,
+  "dimmer": 255,
+  "strobe": 0,
+  "ring_hz": 0.7,
+  "color_period": 2.4,
+  "hand": [230, 170, 20],
+  "palette": [
+    {"name": "cochinilla", "beam": [220, 8, 28, 0]},
+    {"name": "azul", "beam": [0, 30, 255, 0]},
+    {"name": "qolle", "beam": [255, 190, 10, 40]},
+    {"name": "verde", "beam": [0, 170, 35, 0]}
+  ],
+  "notes": "Halo is a traveling 2-seg lerp CCW (gold). Both heads share dart hard-cuts and the same hand. White dart removed."
+}

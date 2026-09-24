@@ -1,0 +1,19 @@
+{
+  "a": {
+    "dimmer": 255,
+    "r": 222,
+    "g": 0,
+    "b": 0,
+    "feature": 25,
+    "speed": 0
+  },
+  "b": {
+    "dimmer": 255,
+    "r": 90,
+    "g": 160,
+    "b": 210,
+    "feature": 25,
+    "speed": 0
+  },
+  "_notes": "A #de0000 / B cielo · portada"
+}

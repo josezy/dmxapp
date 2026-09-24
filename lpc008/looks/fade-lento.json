@@ -1,0 +1,10 @@
+{
+  "_notes": "ch6 fade (151-200). Probe: slow color lerp.",
+  "dimmer": 255,
+  "r": 255,
+  "g": 255,
+  "b": 255,
+  "strobe": 0,
+  "feature": 175,
+  "speed": 80
+}

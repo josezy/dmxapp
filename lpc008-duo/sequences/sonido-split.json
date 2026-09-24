@@ -1,0 +1,15 @@
+{
+  "engine": "sound",
+  "style": "split",
+  "threshold": 3.2,
+  "min_level": 0.025,
+  "cooldown": 0.1,
+  "flash": 0.11,
+  "pairs": [
+    [{"r": 255, "g": 0, "b": 0}, {"r": 0, "g": 255, "b": 255}],
+    [{"r": 0, "g": 255, "b": 0}, {"r": 255, "g": 0, "b": 255}],
+    [{"r": 0, "g": 80, "b": 255}, {"r": 255, "g": 220, "b": 0}],
+    [{"r": 255, "g": 90, "b": 0}, {"r": 40, "g": 80, "b": 255}]
+  ],
+  "notes": "Mic Mac: un aplauso A, el siguiente B, colores complementarios."
+}

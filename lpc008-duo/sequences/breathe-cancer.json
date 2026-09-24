@@ -1,0 +1,18 @@
+{
+  "engine": "dual_breathe",
+  "period": 5.0,
+  "dimmer_lo": 40,
+  "dimmer_hi": 255,
+  "fps": 12,
+  "a": {
+    "r": 20,
+    "g": 55,
+    "b": 70
+  },
+  "b": {
+    "r": 255,
+    "g": 245,
+    "b": 220
+  },
+  "notes": "#143746 vs crema, contrafase 5 s."
+}

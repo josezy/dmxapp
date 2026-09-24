@@ -1,0 +1,16 @@
+{
+  "engine": "alt_strobe",
+  "hz": 1,
+  "fps": 8,
+  "a": {
+    "r": 20,
+    "g": 55,
+    "b": 70
+  },
+  "b": {
+    "r": 255,
+    "g": 245,
+    "b": 220
+  },
+  "notes": "A on / negro / B on / negro. #143746 / crema. 1 Hz"
+}

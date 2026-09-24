@@ -1,0 +1,10 @@
+{
+  "_notes": "Cool white bed. RGBW full — W-only reads as black on this JM-P13.",
+  "dimmer": 200,
+  "r": 255,
+  "g": 255,
+  "b": 255,
+  "w": 255,
+  "feature": "dimmer",
+  "speed": 0
+}

@@ -1,0 +1,32 @@
+{
+  "engine": "circulo_espejo",
+  "keep": true,
+  "rating": {
+    "notes": "Conservar. Óvalo en espejo: pan/tilt a 90°, dardo W, anillo oro."
+  },
+  "fps": 18,
+  "circle_hz": 0.22,
+  "pan_amp": 80,
+  "tilt_amp": 55,
+  "pan_center": 128,
+  "tilt_center": 128,
+  "speed": 25,
+  "dimmer": 255,
+  "strobe": 0,
+  "mirror_pan": true,
+  "a": {
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "w": 255,
+    "halo": [230, 170, 20]
+  },
+  "b": {
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "w": 255,
+    "halo": [230, 170, 20]
+  },
+  "notes": "A pan = 128+amp*sin, tilt = 128+amp*cos. B pan mirrored, same tilt. One rev ~4.5 s."
+}

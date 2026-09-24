@@ -1,0 +1,10 @@
+{
+  "_notes": "ch6 shade, ch7=10. Cycle slower than probe's 80.",
+  "dimmer": 255,
+  "r": 255,
+  "g": 255,
+  "b": 255,
+  "strobe": 0,
+  "feature": 125,
+  "speed": 10
+}

@@ -1,0 +1,16 @@
+{
+  "engine": "alt_strobe",
+  "hz": 1,
+  "fps": 8,
+  "a": {
+    "r": 255,
+    "g": 0,
+    "b": 0
+  },
+  "b": {
+    "r": 0,
+    "g": 255,
+    "b": 255
+  },
+  "notes": "A color / B negro, luego al rev\u00e9s. Strobe con hueco negro."
+}

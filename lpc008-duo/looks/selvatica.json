@@ -1,0 +1,19 @@
+{
+  "a": {
+    "dimmer": 255,
+    "r": 12,
+    "g": 120,
+    "b": 36,
+    "feature": 25,
+    "speed": 0
+  },
+  "b": {
+    "dimmer": 255,
+    "r": 170,
+    "g": 200,
+    "b": 28,
+    "feature": 25,
+    "speed": 0
+  },
+  "_notes": "A hoja / B lima"
+}

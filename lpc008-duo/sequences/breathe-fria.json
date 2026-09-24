@@ -1,0 +1,18 @@
+{
+  "engine": "dual_breathe",
+  "period": 5.0,
+  "dimmer_lo": 40,
+  "dimmer_hi": 220,
+  "fps": 12,
+  "a": {
+    "r": 36,
+    "g": 70,
+    "b": 155
+  },
+  "b": {
+    "r": 150,
+    "g": 210,
+    "b": 255
+  },
+  "notes": "A y B en contrafase: cuando uno sube, el otro baja."
+}

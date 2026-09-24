@@ -1,0 +1,16 @@
+{
+  "engine": "chase",
+  "hz": 0.5,
+  "fps": 8,
+  "a": {
+    "r": 222,
+    "g": 0,
+    "b": 0
+  },
+  "b": {
+    "r": 235,
+    "g": 240,
+    "b": 247
+  },
+  "notes": "#de0000 / blanco chase ambas on 0.5 Hz"
+}

@@ -1,0 +1,13 @@
+{
+  "model": "LED 60W Beam with Halo Effect x2",
+  "brand": "generic",
+  "mode": "A001+A031",
+  "fixtures": [
+    {"id": "a", "address": 1, "label": "A001", "side": "left"},
+    {"id": "b", "address": 31, "label": "A031", "side": "right"}
+  ],
+  "channels_each": 30,
+  "universe_bytes": 60,
+  "start_index": 0,
+  "notes": "Two 30CH beams on one uDMX. Independent looks confirmed 2026-09-17 (A001 red / A031 blue). Pan 128 is each head's range center, not room heading; align bases or trim pan per fixture. Halo CCW 1-6 from the front."
+}

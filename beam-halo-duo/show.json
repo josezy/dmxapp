@@ -1,0 +1,43 @@
+{
+  "subtitle": "BEAM 60W · A001 izq + A031 der · 30CH",
+  "groups": [
+    {
+      "title": "Hits / drop",
+      "scenes": [
+        { "name": "golpe-blanco", "label": "golpe blanco" },
+        { "name": "drop-blanco-rojo", "label": "drop blanco-rojo" },
+        { "name": "barrido-sangre", "label": "barrido sangre" },
+        { "name": "barrido-flash-sangre-oro", "label": "flash sangre-oro" }
+      ]
+    },
+    {
+      "title": "Verse / balada",
+      "scenes": [
+        { "name": "verse-azul", "label": "verse azul" },
+        { "name": "ballad-fade-calido", "label": "ballad fade" }
+      ]
+    },
+    {
+      "title": "Geometría",
+      "scenes": [
+        { "name": "abanico-tilt", "label": "abanico 5/5" },
+        { "name": "simetrico-abre-cierra", "label": "abre-cierra" },
+        { "name": "unison-search", "label": "unison search" },
+        { "name": "contra-tilt", "label": "contra tilt" },
+        { "name": "spin-espejo", "label": "spin espejo" },
+        { "name": "circulo-espejo", "label": "círculo" },
+        { "name": "paralelo-search", "label": "paralelo" }
+      ]
+    },
+    {
+      "title": "Intermitencia / paleta",
+      "scenes": [
+        { "name": "tirones-random-calido", "label": "tirones cálido" },
+        { "name": "abanico-random-frio", "label": "abanico frío" },
+        { "name": "abre-cierra-random-andino", "label": "andino" },
+        { "name": "corona-reloj-dardo", "label": "corona reloj" },
+        { "name": "abanico-tiron-disco", "label": "tirón disco" }
+      ]
+    }
+  ]
+}

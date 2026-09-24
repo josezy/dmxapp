@@ -1,0 +1,28 @@
+{
+  "engine": "abanico_tiron_disco",
+  "keep": true,
+  "rating": {
+    "notes": "Conservar. Sierra pan espejo + tilt unison, snap cada 2.2 s. Disco. Dardo on/off 0.1–1.5 s independiente; anillo siempre on y cambia de color. Dimmer 255, sin strobe."
+  },
+  "fps": 18,
+  "period": 2.2,
+  "speed": 0,
+  "dimmer": 255,
+  "strobe": 0,
+  "pan_a": [72, 184],
+  "pan_b": [184, 72],
+  "tilt": [88, 168],
+  "hold_min": 0.1,
+  "hold_max": 1.5,
+  "independent": true,
+  "dart_off_beam_zero": true,
+  "halo_always_on": true,
+  "palette": [
+    {"name": "magenta-cyan", "beam": [255, 0, 160, 0], "halo": [0, 230, 240]},
+    {"name": "cyan-magenta", "beam": [0, 220, 230, 20], "halo": [255, 0, 140]},
+    {"name": "amarillo-violeta", "beam": [255, 210, 0, 40], "halo": [140, 0, 255]},
+    {"name": "lima-rosa", "beam": [50, 255, 0, 0], "halo": [255, 0, 90]},
+    {"name": "rojo-oro", "beam": [255, 0, 50, 0], "halo": [255, 220, 0]}
+  ],
+  "notes": "Sawtooth lerp then snap on pan (mirrored) and tilt (unison). Halo stays lit on dart-off. New halo every flip; new dart only on ON."
+}

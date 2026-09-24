@@ -1,0 +1,34 @@
+{
+  "engine": "sweep_mirror",
+  "keep": true,
+  "rating": {
+    "overall": 4,
+    "notes": "Conservar. Golpe/strobe: dardo W + anillo RGB blanco. Buena luz estroboscópica."
+  },
+  "fps": 18,
+  "pan_hz": 0.45,
+  "tilt_hz": 0.22,
+  "pan_amp": 90,
+  "tilt_amp": 40,
+  "pan_center": 128,
+  "tilt_center": 128,
+  "speed": 20,
+  "dimmer": 255,
+  "strobe": 80,
+  "mirror": true,
+  "a": {
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "w": 255,
+    "halo": [255, 255, 255]
+  },
+  "b": {
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "w": 255,
+    "halo": [255, 255, 255]
+  },
+  "notes": "Concert hit: white aerial strobe, white RGB ring (no W on halo)."
+}

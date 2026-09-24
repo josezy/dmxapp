@@ -1,0 +1,9 @@
+{
+  "duration": 12.0,
+  "notes": "Verse bed 4s, snap chorus, then internal red strobe medio. Run with --loop --no-audio.",
+  "cues": [
+    {"t": 0.0, "name": "verso", "dimmer": 145, "r": 210, "g": 95, "b": 18, "w": 22, "feature": "dimmer", "speed": 0, "fade": 0},
+    {"t": 4.0, "name": "coro", "dimmer": 235, "r": 255, "g": 10, "b": 0, "w": 8, "feature": "dimmer", "speed": 0, "fade": 0},
+    {"t": 6.0, "name": "strobe", "dimmer": 255, "r": 255, "g": 0, "b": 0, "w": 0, "feature": "strobe", "speed": 120, "fade": 0}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "_notes": "RGB white. LPC008 has no W.",
+  "dimmer": 200,
+  "r": 255,
+  "g": 255,
+  "b": 255,
+  "strobe": 0,
+  "feature": 25,
+  "speed": 0
+}

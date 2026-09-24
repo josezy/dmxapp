@@ -1,0 +1,17 @@
+{
+  "engine": "color_fade",
+  "seconds_per": 2.0,
+  "fps": 30,
+  "dimmer": 255,
+  "colors": [
+    {"r": 255, "g": 0, "b": 0, "w": 0},
+    {"r": 255, "g": 80, "b": 0, "w": 0},
+    {"r": 255, "g": 200, "b": 0, "w": 0},
+    {"r": 0, "g": 255, "b": 40, "w": 0},
+    {"r": 0, "g": 180, "b": 255, "w": 0},
+    {"r": 0, "g": 40, "b": 255, "w": 40},
+    {"r": 140, "g": 0, "b": 255, "w": 0},
+    {"r": 255, "g": 0, "b": 80, "w": 0}
+  ],
+  "notes": "Script lerp through custom RGB. Fixture gradient only uses its built-in palette."
+}

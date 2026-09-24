@@ -1,0 +1,10 @@
+{
+  "_notes": "Reentry / slam bed. Fallar reentrada-fuego.",
+  "dimmer": 245,
+  "r": 255,
+  "g": 48,
+  "b": 0,
+  "w": 32,
+  "feature": "dimmer",
+  "speed": 0
+}

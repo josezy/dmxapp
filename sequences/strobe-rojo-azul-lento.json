@@ -1,0 +1,10 @@
+{
+  "engine": "strobe_colors",
+  "hz": 1,
+  "fps": 8,
+  "colors": [
+    {"r": 255, "g": 10, "b": 0, "w": 8},
+    {"r": 36, "g": 70, "b": 155, "w": 28}
+  ],
+  "notes": "1 Hz sangre↔acero on 8 fps. Same clash, more air. fps multiple of 2*hz."
+}

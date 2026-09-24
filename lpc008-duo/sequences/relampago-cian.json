@@ -1,0 +1,42 @@
+{
+  "engine": "lightning",
+  "fps": 8,
+  "gap_min": 0.5,
+  "gap_max": 2.2,
+  "flash_min": 0.05,
+  "flash_max": 0.14,
+  "bursts_min": 1,
+  "bursts_max": 3,
+  "burst_gap_min": 0.04,
+  "burst_gap_max": 0.11,
+  "a": [
+    {
+      "r": 20,
+      "g": 55,
+      "b": 70
+    },
+    {
+      "r": 235,
+      "g": 240,
+      "b": 247
+    }
+  ],
+  "b": [
+    {
+      "r": 255,
+      "g": 150,
+      "b": 40
+    },
+    {
+      "r": 180,
+      "g": 70,
+      "b": 40
+    },
+    {
+      "r": 255,
+      "g": 255,
+      "b": 245
+    }
+  ],
+  "notes": "Rayo Cáncer: A #143746/blanco / B ámbar. Hueco 0.5–2.2 s."
+}

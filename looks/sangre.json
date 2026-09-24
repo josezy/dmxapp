@@ -1,0 +1,10 @@
+{
+  "_notes": "Chorus bed. Alias of red.json. Fallar coro-sangre.",
+  "dimmer": 235,
+  "r": 255,
+  "g": 10,
+  "b": 0,
+  "w": 8,
+  "feature": "dimmer",
+  "speed": 0
+}

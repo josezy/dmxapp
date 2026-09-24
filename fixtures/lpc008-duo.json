@@ -1,0 +1,13 @@
+{
+  "model": "LPC008 x2",
+  "brand": "Big Dipper",
+  "mode": "A001+A008",
+  "fixtures": [
+    {"id": "a", "address": 1, "label": "A001"},
+    {"id": "b", "address": 8, "label": "A008"}
+  ],
+  "channels_each": 7,
+  "universe_bytes": 14,
+  "start_index": 0,
+  "notes": "Two LPC008 on one uDMX. Complementary looks: A and B never share color or phase. CH5=0, CH6=25 linear. Fixture strobe unused. Sound: CH6=253 CH7=128, yellow flash on clap (look sonido)."
+}

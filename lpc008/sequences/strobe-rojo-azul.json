@@ -1,0 +1,10 @@
+{
+  "engine": "strobe_colors",
+  "hz": 2,
+  "fps": 12,
+  "colors": [
+    {"r": 255, "g": 10, "b": 0},
+    {"r": 36, "g": 70, "b": 155}
+  ],
+  "notes": "2 Hz sangre↔acero. No fixture strobe on LPC008."
+}

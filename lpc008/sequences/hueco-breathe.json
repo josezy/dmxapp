@@ -1,0 +1,8 @@
+{
+  "engine": "breathe",
+  "period": 6.0,
+  "dimmer_lo": 40,
+  "dimmer_hi": 160,
+  "fps": 40,
+  "color": {"r": 48, "g": 42, "b": 175}
+}

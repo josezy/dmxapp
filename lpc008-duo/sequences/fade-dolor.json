@@ -1,0 +1,24 @@
+{
+  "engine": "dual_fade",
+  "seconds_per": 2.5,
+  "fps": 12,
+  "dimmer": 255,
+  "colors": [
+    {
+      "r": 90,
+      "g": 110,
+      "b": 125
+    },
+    {
+      "r": 235,
+      "g": 240,
+      "b": 247
+    },
+    {
+      "r": 222,
+      "g": 0,
+      "b": 0
+    }
+  ],
+  "notes": "Dolor: acero → blanco → #de0000. Paleta corta."
+}

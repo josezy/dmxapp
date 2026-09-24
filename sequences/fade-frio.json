@@ -1,0 +1,13 @@
+{
+  "engine": "color_fade",
+  "seconds_per": 3.0,
+  "fps": 30,
+  "dimmer": 255,
+  "colors": [
+    {"r": 36, "g": 70, "b": 155, "w": 28},
+    {"r": 48, "g": 42, "b": 175, "w": 40},
+    {"r": 160, "g": 0, "b": 255, "w": 0},
+    {"r": 0, "g": 50, "b": 255, "w": 0}
+  ],
+  "notes": "acero → hueco → morado → azul. Bridge / tail."
+}

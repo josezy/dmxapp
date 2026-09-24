@@ -1,0 +1,47 @@
+{
+  "engine": "lightning",
+  "fps": 8,
+  "gap_min": 0.8,
+  "gap_max": 1.4,
+  "flash_min": 0.05,
+  "flash_max": 0.1,
+  "bursts_min": 2,
+  "bursts_max": 2,
+  "burst_gap_min": 0.08,
+  "burst_gap_max": 0.14,
+  "a": [
+    {
+      "r": 255,
+      "g": 255,
+      "b": 245
+    },
+    {
+      "r": 20,
+      "g": 55,
+      "b": 70
+    },
+    {
+      "r": 235,
+      "g": 240,
+      "b": 247
+    }
+  ],
+  "b": [
+    {
+      "r": 255,
+      "g": 255,
+      "b": 245
+    },
+    {
+      "r": 255,
+      "g": 150,
+      "b": 40
+    },
+    {
+      "r": 235,
+      "g": 240,
+      "b": 247
+    }
+  ],
+  "notes": "EKG: doble ráfaga (QRS), hueco 0.8–1.4 s. A frío / B ámbar."
+}

@@ -1,0 +1,30 @@
+{
+  "engine": "spin_espejo",
+  "keep": true,
+  "rating": {
+    "notes": "Gusta el tirón del wrap 0↔255. Giro continuo opuesto, blanco."
+  },
+  "fps": 18,
+  "pan_dps": 42,
+  "tilt_hz": 0.12,
+  "tilt_amp": 30,
+  "tilt_center": 128,
+  "speed": 30,
+  "dimmer": 255,
+  "strobe": 0,
+  "a": {
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "w": 255,
+    "halo": [255, 255, 255]
+  },
+  "b": {
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "w": 255,
+    "halo": [255, 255, 255]
+  },
+  "notes": "A pan = t*dps % 256, B = -t*dps % 256. Wrap jerk is the feature."
+}

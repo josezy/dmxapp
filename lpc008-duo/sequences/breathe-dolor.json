@@ -1,0 +1,18 @@
+{
+  "engine": "dual_breathe",
+  "period": 5.0,
+  "dimmer_lo": 40,
+  "dimmer_hi": 240,
+  "fps": 12,
+  "a": {
+    "r": 222,
+    "g": 0,
+    "b": 0
+  },
+  "b": {
+    "r": 90,
+    "g": 110,
+    "b": 125
+  },
+  "notes": "#de0000 vs acero, contrafase 5 s."
+}

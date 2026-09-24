@@ -1,0 +1,31 @@
+{
+  "engine": "contra_tilt",
+  "keep": true,
+  "rating": {
+    "notes": "Conservar. Pans en V fijos, tilt A +sin / B -sin, blanco."
+  },
+  "fps": 18,
+  "tilt_hz": 0.28,
+  "tilt_amp": 70,
+  "tilt_center": 128,
+  "pan_a": 72,
+  "pan_b": 184,
+  "speed": 25,
+  "dimmer": 255,
+  "strobe": 0,
+  "a": {
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "w": 255,
+    "halo": [255, 255, 255]
+  },
+  "b": {
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "w": 255,
+    "halo": [255, 255, 255]
+  },
+  "notes": "Abanico 5/5 geometry with opposite nod."
+}

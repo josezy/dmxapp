@@ -1,0 +1,35 @@
+{
+  "engine": "sweep_mirror",
+  "keep": true,
+  "rating": {
+    "movimiento": 4,
+    "energia": 4,
+    "notes": "Conservar. Halo se lee más rojo; el dardo un poco magenta. Color único: pendiente."
+  },
+  "fps": 18,
+  "pan_hz": 0.45,
+  "tilt_hz": 0.22,
+  "pan_amp": 90,
+  "tilt_amp": 40,
+  "pan_center": 128,
+  "tilt_center": 128,
+  "speed": 20,
+  "dimmer": 255,
+  "strobe": 0,
+  "mirror": true,
+  "a": {
+    "r": 255,
+    "g": 0,
+    "b": 12,
+    "w": 0,
+    "halo": [90, 0, 8]
+  },
+  "b": {
+    "r": 255,
+    "g": 0,
+    "b": 12,
+    "w": 0,
+    "halo": [90, 0, 8]
+  },
+  "notes": "A pan/tilt +sin, B -sin. Beam B=12 empuja el dardo a magenta; halo casi solo R se ve más rojo."
+}

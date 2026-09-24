@@ -1,0 +1,19 @@
+{
+  "a": {
+    "dimmer": 255,
+    "r": 255,
+    "g": 255,
+    "b": 255,
+    "feature": 253,
+    "speed": 128
+  },
+  "b": {
+    "dimmer": 255,
+    "r": 255,
+    "g": 255,
+    "b": 255,
+    "feature": 253,
+    "speed": 128
+  },
+  "_notes": "DMX sound. ch6=253 ch7=128. Both PARs yellow flash on clap. RGB ignored."
+}

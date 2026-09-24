@@ -1,0 +1,47 @@
+{
+  "model": "LPC008",
+  "brand": "Big Dipper",
+  "mode": "A001",
+  "address": 1,
+  "channels": 7,
+  "map": {
+    "dimmer": 1,
+    "r": 2,
+    "g": 3,
+    "b": 4,
+    "strobe": 5,
+    "feature": 6,
+    "speed": 7
+  },
+  "features": {
+    "dimmer": 25,
+    "macros": 75,
+    "shade": 125,
+    "fade": 175,
+    "pulse": 225,
+    "sound": 253
+  },
+  "feature_bands": {
+    "off": [0, 0],
+    "dimmer": [1, 50],
+    "macros": [51, 100],
+    "shade": [101, 150],
+    "fade": [151, 200],
+    "pulse": [201, 250],
+    "sound": [251, 255]
+  },
+  "probe_2026-08-27": {
+    "ch1_4": "dimmer + RGB when ch6 in 1-50",
+    "ch6_0": "off",
+    "ch6_1_10": "DMX linear, static red",
+    "ch5": "not strobe. 40/120/200 ignored (linear and macros). 8 and 255 flash-then-black. Leave at 0.",
+    "ch7_linear": "not strobe; static",
+    "ch6_macros": "ch7=40 green, ch7=200 blue; ch5 does not strobe the palette",
+    "ch6_shade": "color cycle; ch7=speed (80 already fast)",
+    "ch6_fade": "151-200 slow lerp, not jump",
+    "ch6_pulse": "soft pulse, floor > 0",
+    "ch6_sound": "2026-09-02 duo: ch6 251-255 sound. Yellow clap flash only. RGB, dimmer, ch5, ch7 do not change color. ch7 0 vs 255: no clear sensitivity difference.",
+    "internal_strobe": "none in A001 DMX. Display FH99/SU01 only. Use script strobe."
+  },
+  "notes": "RGB 3-in-1, no W. A001 7ch address 1. CH6=0 off, 1-50 DMX (keep CH5=0), 51-100 macros (CH7 picks color), 101-150 shade, 151-200 fade, 201-250 pulse, 251-255 sound (yellow flash on clap). No fixture strobe over DMX. Avoid CH5 8 and 255."
+}

@@ -1,0 +1,11 @@
+.venv/
+.venv-broken-py311/
+state.json
+__pycache__/
+*.pyc
+.DS_Store
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/local.docker.properties

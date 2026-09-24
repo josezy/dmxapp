@@ -1,0 +1,85 @@
+{
+  "engine": "show",
+  "mode": "random",
+  "hold_min": 8,
+  "hold_max": 14,
+  "steps": [
+    {
+      "kind": "look",
+      "name": "deo-cian"
+    },
+    {
+      "kind": "look",
+      "name": "deo-hielo"
+    },
+    {
+      "kind": "look",
+      "name": "ultima"
+    },
+    {
+      "kind": "look",
+      "name": "suero"
+    },
+    {
+      "kind": "look",
+      "name": "cromo"
+    },
+    {
+      "kind": "look",
+      "name": "pelicula"
+    },
+    {
+      "kind": "look",
+      "name": "calida"
+    },
+    {
+      "kind": "look",
+      "name": "fria"
+    },
+    {
+      "kind": "play",
+      "name": "strobe-deo-cian-lento"
+    },
+    {
+      "kind": "play",
+      "name": "strobe-dolor-lento"
+    },
+    {
+      "kind": "play",
+      "name": "chase-deo-cian-lento"
+    },
+    {
+      "kind": "play",
+      "name": "intermitencia-deo"
+    },
+    {
+      "kind": "play",
+      "name": "fade-cancer"
+    },
+    {
+      "kind": "play",
+      "name": "fade-ultima"
+    },
+    {
+      "kind": "play",
+      "name": "breathe-cancer"
+    },
+    {
+      "kind": "play",
+      "name": "breathe-dolor"
+    },
+    {
+      "kind": "play",
+      "name": "breathe-deo"
+    },
+    {
+      "kind": "play",
+      "name": "ekg"
+    },
+    {
+      "kind": "play",
+      "name": "relampago-cian"
+    }
+  ],
+  "notes": "Random Deo 8–14 s. Rates lentos. Sin selvática."
+}

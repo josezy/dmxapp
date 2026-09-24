@@ -1,0 +1,19 @@
+{
+  "a": {
+    "dimmer": 255,
+    "r": 150,
+    "g": 0,
+    "b": 255,
+    "feature": 25,
+    "speed": 0
+  },
+  "b": {
+    "dimmer": 255,
+    "r": 140,
+    "g": 255,
+    "b": 0,
+    "feature": 25,
+    "speed": 0
+  },
+  "_notes": "A violeta / B lima"
+}

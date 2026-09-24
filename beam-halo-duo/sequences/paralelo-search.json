@@ -1,0 +1,33 @@
+{
+  "engine": "paralelo_search",
+  "keep": true,
+  "rating": {
+    "notes": "Conservar. Faro doble: mismo barrido de pan y tilt, offset fijo. No V ni unison idéntico."
+  },
+  "fps": 18,
+  "pan_hz": 0.22,
+  "tilt_hz": 0.12,
+  "pan_amp": 70,
+  "tilt_amp": 40,
+  "pan_center": 128,
+  "tilt_center": 128,
+  "pan_offset": 44,
+  "speed": 25,
+  "dimmer": 255,
+  "strobe": 0,
+  "a": {
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "w": 255,
+    "halo": [255, 255, 255]
+  },
+  "b": {
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "w": 255,
+    "halo": [255, 255, 255]
+  },
+  "notes": "A pan = 128+sweep-offset/2, B = 128+sweep+offset/2. Same tilt sine."
+}

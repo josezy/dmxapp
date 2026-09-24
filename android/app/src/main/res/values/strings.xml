@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Deo Volente · show</string>
+    <string name="channel_name">Luces DMX</string>
+    <string name="notif_title">Show</string>
+    <string name="blackout">BLACKOUT</string>
+    <string name="reconnect">Reconectar</string>
+</resources>

@@ -1,0 +1,25 @@
+{
+  "engine": "sweep_mirror_flash",
+  "keep": true,
+  "rating": {
+    "overall": 3,
+    "notes": "Conservar. Intermitencia sangre/oro 2 Hz, unison, mismo cruce. No split policía."
+  },
+  "fps": 18,
+  "pan_hz": 0.45,
+  "tilt_hz": 0.22,
+  "pan_amp": 90,
+  "tilt_amp": 40,
+  "pan_center": 128,
+  "tilt_center": 128,
+  "speed": 20,
+  "dimmer": 255,
+  "strobe": 0,
+  "mirror": true,
+  "flash_hz": 2.0,
+  "colors": [
+    {"name": "sangre", "beam": [255, 0, 8, 0], "halo": [200, 0, 0]},
+    {"name": "oro", "beam": [255, 170, 25, 70], "halo": [220, 150, 20]}
+  ],
+  "notes": "Hard cut both fixtures together. Halo follows beam."
+}

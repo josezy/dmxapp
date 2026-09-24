@@ -1,0 +1,10 @@
+{
+  "_notes": "Internal strobe (ch6 0-50) of RGB green. ch7 = flash rate.",
+  "dimmer": 255,
+  "r": 0,
+  "g": 255,
+  "b": 0,
+  "w": 0,
+  "feature": "strobe",
+  "speed": 200
+}

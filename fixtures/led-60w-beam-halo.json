@@ -1,0 +1,45 @@
+{
+  "model": "LED 60W Beam with Halo Effect",
+  "brand": "generic",
+  "manual": "dmx/manuals/LED-60W-Beam-with-Halo-Effect-moving-head.pdf",
+  "mode": "30CH",
+  "address": 1,
+  "channels": 30,
+  "movement": {"pan_deg": 540, "tilt_deg": 180},
+  "map": {
+    "pan": 1,
+    "pan_fine": 2,
+    "tilt": 3,
+    "tilt_fine": 4,
+    "speed": 5,
+    "dimmer": 6,
+    "strobe": 7,
+    "r": 8,
+    "g": 9,
+    "b": 10,
+    "w": 11,
+    "halo": [12, 29],
+    "reset": 30
+  },
+  "halo_segments": 6,
+  "halo_order": "front view, counterclockwise from segment 1",
+  "halo_rgb": {
+    "1": [12, 13, 14],
+    "2": [15, 16, 17],
+    "3": [18, 19, 20],
+    "4": [21, 22, 23],
+    "5": [24, 25, 26],
+    "6": [27, 28, 29]
+  },
+  "reset_band": [250, 255],
+  "probe_2026-09-17": {
+    "16CH": "closed. ch12-15 are internal macros (beam+halo+pan/tilt), not linear halo. Units free-run, ~<1s desync. Keep 0.",
+    "30CH": "linear. ch1-11 same as 16CH. Halo 6 RGB segments. ch30 reset: leave 0.",
+    "dimmer": "ch6 masters beam and halo. 0 = full blackout.",
+    "strobe": "ch7=80 medium, both in sync.",
+    "white": "W-only colder than RGBW mix.",
+    "speed": "ch5=180 slow move. 16CH pan 128->64 and tilt 128->64 confirmed.",
+    "display": "blinking decimal = DMX lock. LEd OFF hides address after 5s."
+  },
+  "notes": "Menu: SLnd=SL 1, CHnd=30CH. Do not send 250-255 on ch30. 16CH macros unused."
+}

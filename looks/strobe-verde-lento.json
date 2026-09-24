@@ -1,0 +1,10 @@
+{
+  "_notes": "Internal green strobe. ch7 lento.",
+  "dimmer": 255,
+  "r": 0,
+  "g": 255,
+  "b": 0,
+  "w": 0,
+  "feature": "strobe",
+  "speed": 40
+}

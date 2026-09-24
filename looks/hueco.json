@@ -1,0 +1,10 @@
+{
+  "_notes": "Cold bridge bed. Fallar hueco-frio.",
+  "dimmer": 155,
+  "r": 48,
+  "g": 42,
+  "b": 175,
+  "w": 40,
+  "feature": "dimmer",
+  "speed": 0
+}
