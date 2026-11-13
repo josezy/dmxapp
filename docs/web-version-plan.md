@@ -1,10 +1,26 @@
 # Consola de show en el navegador
 
-Plan de una consola que corre entera en Chrome o Edge, se publica como sitio estático y habla con el Anyma uDMX por WebUSB. No hay servidor Python. Este documento no implementa esa consola: fija el alcance, el orden de trabajo y la puerta de entrada.
+Plan de una consola que corre entera en Chrome o Edge, se publica como sitio estático y habla con el Anyma uDMX por WebUSB. No hay servidor Python. La v1 está implementada en `web/` (ver `web/README.md`).
 
-La recomendación es esta. La v1 es la consola de show (la de `panel_show.py`, hoy en `127.0.0.1:8766`): rig de LPC008 7CH y cabezas LED 60W Beam+Halo 30CH, paleta y velocidad compartidas, lista de looks. El sitio es Vite + TypeScript, sin framework de UI, desplegado en Vercel. Python sigue siendo la fuente de verdad de los frames; el navegador se compara contra los goldens que ya usa Kotlin. Antes de portar el motor hay un spike de una página: abrir el uDMX y medir si un `SET_RANGE` de 60 y de 74 bytes aguanta 12–18 fps en el Mac y en el Seeker. Si ese spike falla, el porte se detiene y se siguen usando el panel Python y la APK.
+## Decisiones
 
-El APK del Seeker se queda. Chrome no puede sostener un servicio en primer plano con el USB abierto cuando el teléfono se apaga o se cambia de app. La APK sí (`DmxService`, `PARTIAL_WAKE_LOCK`, tipo `connectedDevice`).
+Jose cerró las preguntas abiertas así. Lo que no contestó queda en la recomendación de este plan.
+
+| Tema | Decisión |
+|---|---|
+| Spike en el Mac y el Seeker | No. Se salta la fase 0 y se implementa directo. El driver manda el frame entero, como pyusb. Si esa transfer falla con el aparato todavía presente, pasa a trozos de 32 bytes y luego de 8, y lo anota en el estado USB. |
+| Pestaña oculta o pantalla bloqueada | Aceptado: el sistema puede parar el envío. La página igual pide Screen Wake Lock, manda desde un worker (o desde el hilo principal si el worker no tiene WebUSB), y al volver a verse la pestaña o al reaparecer el dongle retoma el look y reconecta sola. |
+| URL | `*.vercel.app`, pública. |
+| Windows | Entra. La pantalla Ayuda y `web/README.md` explican Zadig / WinUSB para `16C0:05DC`, que eso puede quitarle el dongle a pyusb y a QLC+ en esa máquina, y cómo volver al driver anterior. Si Chrome rechaza el aparato, el estado muestra esa pista. |
+| Alcance | v1 = consola de show. La APK se queda. |
+| Crystal Ball | Fuera hasta que sus archivos estén en el repo. |
+| Relámpago y looks random | Mismos parámetros de tiempo. No hace falta el RNG de CPython ni paridad bit a bit. |
+| Motores | Python sigue siendo la referencia. Los goldens existentes mandan. TypeScript se suma; Kotlin no se borra. |
+| Rig por defecto | 0 PAR, 2 BEAM, PAR primero, paleta `blanco`, velocidad `medio`. |
+
+La v1 es la consola de show (la de `panel_show.py`, hoy en `127.0.0.1:8766`): rig de LPC008 7CH y cabezas LED 60W Beam+Halo 30CH, paleta y velocidad compartidas, lista de looks. El sitio es Vite + TypeScript, sin framework de UI, desplegado en Vercel con directorio raíz `web/`. Python sigue siendo la fuente de verdad de los frames; el navegador se compara contra los goldens que ya usa Kotlin, más capturas de `ShowPlayer` generadas con Python en `web/test/fixtures/`.
+
+El APK del Seeker se queda. Chrome no puede sostener un servicio en primer plano con el USB abierto cuando el teléfono se apaga o se cambia de app. La APK sí (`DmxService`, `PARTIAL_WAKE_LOCK`, tipo `connectedDevice`). La web hace lo que el navegador deja: wake lock, bucle en worker y reanudación al volver.
 
 ## Qué hay hoy
 
@@ -93,9 +109,11 @@ Criterio práctico para dar el USB por bueno, medido en el spike y otra vez con 
 
 El tope de 12 fps que las notas marcan para el estrobo de dos colores del JM-P13 es de ese motor viejo (`scripts/dmx.py`), no del show. Los looks de luz del show ya nacen a 12 fps. La geometría pide 18 porque es lo que las secuencias declaran y lo que la APK ya sostiene.
 
-### Spike mínimo (fase 0, puerta de entrada)
+### Spike mínimo
 
-Una sola página estática, sin motor y sin Vite si estorba. Botón «Conectar uDMX».
+Jose decidió no correr el spike y pasar directo a la implementación. El criterio de abajo queda como diagnóstico si en el Mac o en el Seeker el USB no responde: la pantalla de estado muestra ok/fail y, si el frame entero no entra, el driver prueba trozos de 32 y de 8 bytes. No hubo una fase 0 separada.
+
+El spike, si hiciera falta repetirlo a mano, sería una sola página. Botón «Conectar uDMX».
 
 1. `requestDevice({ filters: [{ vendorId: 0x16c0, productId: 0x05dc }] })`.
 2. `open()`, `selectConfiguration(1)` si hace falta, `claimInterface(0)`.
@@ -233,15 +251,7 @@ Así se ve un look mal portado sin encender las luces. El dibujo puede ir en rAF
 
 El spike es la puerta. Si sale mal, el esfuerzo se queda en la fase 0. Si sale bien, el resto es traducir un motor que ya existe dos veces y envolverlo en la UI que ya está diseñada.
 
-| Fase | Tamaño | Qué se entrega | Se cierra cuando |
-|---|---|---|---|
-| 0. Spike | Chico. Una página, sin motor. Depende de tener el uDMX en el Mac y en el Seeker. | `web/spike` o un HTML suelto, más el log de los números. Preview HTTPS para el teléfono. | Criterio de la sección 1, en los dos aparatos. |
-| 1. Cáscara y simulador | Chico. La UI ya está en `panel_show.py`. | Vite, home, pad, catálogo real, simulador con un buffer falso o el motor a medias. Deploy de Vercel para mirarlo desde el teléfono. | Se puede clickear un look y ver canales, aunque el motor aún no sea el de Python. |
-| 2. Motor y paridad | El grueso. Traducción del orden de las ~1.300 líneas del motor Kotlin, más tests. | `ShowPlayer` TS, secuencias importadas, vitest contra goldens y contra los asserts del rig. | Los tests de la sección 4 en verde, simulador moviendo looks de verdad. |
-| 3. USB de verdad | Chico si la fase 0 pasó. El protocolo es una transfer. | `udmx.ts`: abrir, reclamar, `SET_RANGE`, racha, reconectar, heartbeat, wake lock, aviso de pestaña oculta, blackout en `pagehide` como intento. | Mac y Seeker con el rig real, los fps del criterio, BLACKOUT visible. |
-| 4. Cierre | Chico. | Persistencia, textos en español, nota corta de uso junto al panel, los dos tests corriendo en local (y en CI si se agrega el workflow). | Jose entra al link y corre un look sin el panel Python. |
-
-Orden: 0 antes que 2. La fase 1 puede ir en paralelo con el spike porque no toca USB. La fase 3 no empieza con el criterio en rojo.
+La fase 0 no se hizo: Jose pidió implementar ya. El resto se construyó junto en `web/`: motor, tests contra los goldens, UI, simulador, WebUSB con wake lock y reanudación, ayuda de Windows y el README de Vercel.
 
 ### Riesgos
 

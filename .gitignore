@@ -9,3 +9,5 @@ android/build/
 android/app/build/
 android/local.properties
 android/local.docker.properties
+web/node_modules/
+web/dist/
